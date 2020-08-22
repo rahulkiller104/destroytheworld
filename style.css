@@ -1,0 +1,39 @@
+ul.list-group.list-group-flush {
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card-deck {
+    max-width: 1215px;
+    margin: auto;
+    margin-top: 130px;
+
+
+}
+
+.card {
+    box-shadow: 0 0 30px rgba(0, 0, 0, .3);
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.card-link {
+    color: black;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+
+    margin-left: 20px;
+}
+
+.card-text {
+    color: #303137;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 300;
+}
+
+.card-title {
+    font-family: "Lucida Console", Courier, monospace;
+}
